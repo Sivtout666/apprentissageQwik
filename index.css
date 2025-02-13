@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    scrollbar-width: none;
+}
+
+.titre {
+    background-color: #111;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre > h1 {
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+    gap: 15px;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.navbar > a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 7vw;
+}
+
+.gros_ensemble {
+    height: 100vh;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+}
+
+dialog {
+    margin: 10px;
+    border: none;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+}
+
+dialog > button {
+    width: 45vw;
+    height: 80vh;
+}
+
+.ensemble {
+    /* border: 1px solid red; */
+    height: 80vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: 10px;
+    gap: 5px;
+}
+
+.div_taches {
+    border: 2px solid black;
+    height: 75vh;
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 8px;
+    gap: 5px;
+    
+}
+.div_taches > button {
+    height: 5vh;
+    width: 5vw;
+    border-radius: 10px;
+}
+
+.dans_taches {
+    height: 20vh;
+    border: 1px solid black;
+    width: 9.5vw;
+}
